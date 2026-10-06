@@ -1,0 +1,41 @@
+# Sistema de Pizzería - Modelado y Aplicación POO
+
+## Descripción del proyecto
+
+Este proyecto consiste en la implementación de un sistema de pizzería utilizando
+Programación Orientada a Objetos (POO) en Java.
+
+El proyecto fue diseñado inicialmente mediante un diagrama UML. A partir de este
+diagrama se identificaron las clases, atributos, métodos, enumeraciones y relaciones
+necesarias para representar el funcionamiento básico de una pizzería.
+
+
+Las principales modificaciones realizadas al UML original fueron:
+
+1. Separar correctamente `TIPOSALSA`, `TIPOMASA` y `TOPPINGS` como enumeraciones.
+2. Utilizar las enumeraciones como tipos dentro de `Pizza`.
+3. Diferenciar correctamente atributos y métodos.
+4. Convertir `NombreCliente` en información almacenada por `Orden`.
+5. Convertir `IngredientesEspeciales` en un atributo.
+6. Agregar un parámetro a `añadirProducto()`.
+7. Agregar un parámetro a `añadirBebida()`.
+8. Agregar un parámetro a `añadirDireccion()`.
+9. Agregar un parámetro a `añadirNumeroMesa()`.
+10. Corregir el retorno de `añadirNumeroMesa()`.
+11. Representar correctamente los arreglos en Java.
+12. Implementar comportamiento en `prepararOrden()`.
+13. Implementar comportamiento en `entregarOrden()`.
+14. Agregar constructores.
+15. Inicializar correctamente los atributos.
+16. Utilizar atributos privados para aplicar encapsulamiento.
+17. Agregar getters y setters cuando sean necesarios.
+18. Establecer la relación entre `Orden` y `Pizza`.
+19. Establecer la relación entre `Pizzeria` y `Orden`.
+20. Establecer la relación entre `Pizzeria` y `Cocina`.
+21. Cambiar nombres de métodos y atributos para seguir `camelCase`.
+22. Evitar métodos que solamente retornan valores vacíos.
+23. Utilizar los tipos adecuados para cada dato.
+24. Mantener las clases separadas para facilitar la organización del proyecto.
+
+---
+
