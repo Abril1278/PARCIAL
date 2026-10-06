@@ -1,0 +1,7 @@
+public enum TOPPINGS {
+    PEPPERONNI,
+    JAMON,
+    SALCHICHA,
+    CARNE,
+    ESPARRAGOS
+}
